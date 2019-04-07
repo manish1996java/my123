@@ -1,0 +1,247 @@
+
+before starting this session . i need to know that 
+
+do you know css..?
+pseudo class and elements..?
+floating and clearfix..?
+5 types of positions..?
+display - diff b/w block, inline and inline-block..?
+
+if you know all these things then we will move to 
+create webpage.
+
+
+
+
+
+
+Introduction of css
+
+Css is a cascading style sheet is not a language like html or js or like any other language
+its a mechaism that's design our website or web document.
+
+for example -
+
+if your want to alter the font, color ,size, spacing here you use css.and you can also split
+your content into multiple columns, or add animations and other decoration can apply with this
+css.
+
+let see how css makes our website beautiful.
+
+let's open any website and then remove their css then we will see how our website looks
+without css.
+
+
+
+
+
+now the Question is how can we apply all these designing or decoration
+
+Now in the css we have selectors and properrties through which we can apply these designing on 
+
+our html element.
+
+
+
+
+Now what is selectors.?
+
+Selctors is the part of a css rule that describe waht elements in the documents the rule will 
+
+match. in easy words selector seelct our document elements through their tag name and by id , 
+
+class or by any attribute and apply properties on that element.
+
+we have many types of css selectors like:
+
+universal selector: universal selector define with * whatever property define inside the 
+universal selector it will apply on all the element in our structure.
+type: in type selector we can select element by its name.
+id: we can select any element by giving id. it must be unique in our whole html structure. 
+class: we can select any element by giving class attribute or ist value any name, we can add
+multple class inside class attribute value" but no in case of id.
+attribute selector: The CSS attribute selector matches elements based on the presence or value 
+
+of a given attribute.
+
+
+
+
+
+
+the position property in css defines position of our elements,that how the element is 
+
+positioned  on the web page.
+
+we have five types of position here in Css3
+
+
+-position relative
+-position absolute
+-position sticky
+-position static
+-positoin fixed
+
+
+
+first is static: by default our element position value is static mean,all the elements are in 
+
+order as they appear in the document. we can also mention in the position property but we don't 
+
+need this.
+
+next is Fixed: by postion fixed it will take position according to browser's window. and also 
+
+attached with our browsers window  
+you can manage its position by pair of these properties top and left or right or bottom and 
+
+left or right.
+
+
+so next is absolute:This type of positioning allows you to place your element precisely where 
+
+you want it. position absolute work with position relative, whenever you define position 
+
+absolute then it will search the position relative attribute in our parent element. and it will 
+
+take position according to parent element if there is no position relative in our parent 
+
+element then it will find in grand parent element and so on till it find the position relative 
+
+in our parent's element if it doesn't find any parent element having position as relative then 
+
+its going to take the browser's window as its relative parents. and this thing will again start 
+
+workig just like fixed property was working  
+
+An important thing to keep in mind while using absolute positioning is to make sure it is not 
+
+overused, otherwise it will difficult to manage.
+
+if you are using position relative alone in any element nothing will heppen.
+
+so next is position sticky: the  element is positioned related to the user scroll position. 
+
+the sticky element maintains its  position only within its containing block.
+the value  sticky in the the position property tells  the sticky div to 	 stick within 
+
+the box div, we also define where we want to stick our element by top , bottom ,righ and left 
+
+properties.
+
+
+
+
+
+now next we will see pesudo-elements
+
+there are some pseudo elements
+
+-after
+-before
+-first-letter
+-first-line
+-placeholder
+
+
+
+now what is pesudo-elements : pesudo means fake .in css we also have some readymate elements. 
+we just need to use these elements.
+
+pesudo-elements are the keyword added to a selector that lets you style a specific part of the 
+selected element(s). 
+
+
+For example, ::first-line presudo-elements can be used to change the font of the first line of 
+a paragraph. 
+
+::first-letter CSS pseudo-element applies styles to the first letter of the first line of a 
+block-level element
+
+next is ::placeholder CSS pseudo-element represents the placeholder text in an <input> or 
+<textarea> element.
+
+next is after pseudo-element: that is the last child of selected element. its create a fake 
+child .we may used to add any icon after element like dropdown icon ,like any content or text . 
+and it is also inline element.
+
+as same we have ::before pseudo-element .the difference is it will be the first child element 
+
+in the selected element.
+
+
+
+now next is floating and clearfix: 
+
+in previous html we used to maintain our content column wise by using
+floating or clearfix:
+
+Now what floating do: 
+floating is used to float our element little upside of the web page
+.now our element is floating and rest of the element take place where
+our this element was placed. 
+
+when float property is none: it will take place on our web page.
+when you change it to left: then it float on little bit upside of 
+webpage and it will placed left side   
+
+when you change it to right: then it float or placed right side.
+
+now our element is floting or the rest content of website will take
+place where our floating element was placed. and these content 
+place around the floating element remaining part. 
+
+we are using this for align our content side by side 
+
+if i want that our website contenet don't take place around floting
+element .we need to add clear property.
+
+if i want that atteched webpage content don't take space to rest of free right side space of 
+left floating element.
+then we will add clear left;
+
+as same for right side element we will use clear right;
+
+and if i want for both element then we change it to clear both;
+
+
+we can also use this float or clear fix with class selector
+
+we just need to write 
+
+.left{
+	float:left;
+}
+
+and then if  i place this class inside any element then the float property will apply.
+
+we can do same for right floating
+.right{
+	float: right;	
+}
+
+and whereever we want to apply this property we just neeed to place this class inside the element.
+and for clear both we also can create a class
+and if we want this clear propety after to the particular target element we can add pseudo 
+element with this class.
+
+.clearfix :: after{
+	content:" ";
+	display: block;
+	clear: both;
+} 
+ 
+
+css3 replace this floating and clearfix with display flex .display flex do all these things .we 
+just need to apply this property on parent div and the child elements will automatically 
+seperate as a column.we also need to define width of all column.
+
+
+now we are ready to create a web page.
+today we create a flipkart replication.
+
+
+ 
+
+
+  
