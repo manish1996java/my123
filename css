@@ -33,6 +33,19 @@ without css.
 
 
 
+we have three types to add css in our website
+1. first is inline : here we apply css in attribute by style and inside style value 
+we define property.
+2. second is internal css : here we will apply css inside the style tag , and style will be in 
+heading tag.
+3. and third one is external css : we will contain all css content inside .css file . and we will
+link this file in our html with link tag.
+
+external css is most commonly used in every website. 
+advantage of external css is 
+Smaller size of HTML pages and cleaner structure. or also provide faster loading speed ,
+or provide easy to do chages in ,or we can use this css file other pages . we just need to simply
+link this file by link tag inside the html.
 
 
 now the Question is how can we apply all these designing or decoration
