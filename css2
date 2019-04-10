@@ -122,6 +122,68 @@ of all column.
 
 
 
+Now we are ready to create a website.
+lets create replica of flipkart.
+
+
+now will also maintaining standard that
+where we will contain all our css file.
+js files and images.
+
+all website are follow these standard
+
+
+first we will create file with project
+name .we are creating flipkart website
+so i give a name flipkart and inside.
+we will create index.html . now Question 
+is why i give a name index. 
+
+
+when you do live on server. then server
+will don't know that what name could be
+of your webpage. even it also don't know
+that what name every developer will give
+to our website
+
+so server said i have file where i mentioned
+the names.and i will run the files bases on
+these names.
+
+and you must follow these rule then i run 
+your website.
+
+some of name are :
+
+index.html
+index.htm
+index.jsp
+
+
+then server 
+finding name
+
+
+you can also change these name with our 
+webpage name in server file in web.xml
+but 
+
+by default these name were written.
+
+then we will create Assets folder
+where i store all css ,js or otherfiles
+
+now i am creating two files here
+
+first for image 
+and second for cssfiles
+
+
+
+
+
+
+
 
 
 
