@@ -1,0 +1,129 @@
+hey, guys lets start this session.
+
+in previous session 
+we have covered :
+
+selectors
+introduction of css.
+5 types of position.
+display block, inline or inline-block
+pseudo element or classes 
+and we were doing 
+floating and clear fix.
+
+now we have to complete the floating and clear fix.
+
+now lets complete the code where we left.
+there was no problem in the code 
+after ending the previous session i 
+run this code again and its worked.
+
+so lets see again how 
+
+clear:left
+clear:right
+clear:both
+
+work with floating
+
+we already have a container
+inside container div we  have col1 and
+col2 div
+
+then we have created p tag and the 
+element taking place around the floating
+elements
+
+but we don't want that ptag take space 
+around them
+
+then we created div with class space 
+next to the col2 element
+
+and div is block element which will occupy
+full width of our window but without any
+content it will not taking any width and
+height. 
+
+we can add property content ="";
+or either we can give width and height.
+and then we will add property clear:left
+for all left floating element
+
+
+now you can see its work for left element
+and clear remaing area according to left
+elements height.
+
+and you can do the same thing for right element
+
+and if i want for both then 
+add value clear : both;
+
+
+
+we can also use these clearfix with class selector
+
+benefit of using class selector wherever i want this
+property in our element we just need to add class 
+name to particular element . and then property 
+will apply.
+
+now will create class name with
+
+
+.clearfix::after now here after will create 
+fake element wherever i add this class to 
+any element.
+
+now we don't need to add class after floating
+element like we created div with space class.
+
+now we don't need to create this class .
+now after pseudo element will autometically
+do for us.
+
+.clearfix::after{
+  content: "";
+  display:block;
+  clear:both;
+}
+
+
+
+
+by default after create a inline element 
+but we need a block element 
+
+
+now we need to create row class and inside row
+i will contain all these column
+
+now we just need to simply add this clearfix to 
+the row class.
+
+now it will work same.
+
+you alos can do one more thing that you can
+change clearfix name with row
+and then whenever you create div with class
+row it will apply
+
+
+now
+css3 replace this floating and 
+clearfix with display flex .display
+flex do all these things .we 
+just need to apply this property on
+parent div and the child elements
+will automatically seperate as a
+column.we also need to define width
+of all column.
+
+
+
+
+
+
+
+
