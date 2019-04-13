@@ -1,0 +1,54 @@
+
+
+hey guys.
+today we have to complete our flipkart website.
+header or navigation bar.
+after that if time will left then we will also 
+create a carousle .
+
+carousle is the image slider in the flipkart
+down navigation bar.
+
+you can see every shoping and other website 
+using this carousle to make our our website 
+more attractive.
+
+when we move to bootstrap then we don't need 
+to do all these things. bootstrap already 
+have some class which is do this all thing 
+in behind the sean. we just need to add 
+classes on our elements.
+
+but we also need to know that how everything
+is working form very basic.
+
+so lets start to create our navigation bar
+
+
+in navigation bar you can see that their is
+a list .list of option and here you also can
+see a clickable text.
+
+so we need to create a list , so we will pick
+unorderd list. or inside unorderd list and
+li we will create a anchor tag for clickable 
+text then inside we will write these option.
+
+
+so lets understand into paint.
+
+
+
+
+so lets impelements into code.
+
+
+
+
+
+
+
+
+
+
+
