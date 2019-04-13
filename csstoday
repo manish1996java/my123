@@ -1,11 +1,22 @@
-
-
 hey guys.
+
+good. and how about you.
+
+lets start this session.
+before starting ,
+i want to tell you that you
+can get these codes from my git hub link.
+
+here is my github link.
+
+you can note it.
+
+
+so
 today we have to complete our flipkart website.
 header or navigation bar.
 after that if time will left then we will also 
 create a carousle .
-
 carousle is the image slider in the flipkart
 down navigation bar.
 
@@ -15,7 +26,8 @@ more attractive.
 
 when we move to bootstrap then we don't need 
 to do all these things. bootstrap already 
-have some class which is do this all thing 
+have some class or components for all this
+.which is do this all thing 
 in behind the sean. we just need to add 
 classes on our elements.
 
@@ -36,6 +48,57 @@ text then inside we will write these option.
 
 
 so lets understand into paint.
+
+
+so first we will add box-sizing : border-box;
+now what border do 
+
+let see with the diagram
+
+if i give margin or padding to any element 
+
+let say we have any element 
+and the
+and the width of element is 100 px
+this is actuall size of element 
+then if add padding to this element 
+let say 3px 3px padding
+and if i add 10 10 px marging
+now our element size is increase then our 
+actuall element size 
+
+
+now the size is 100px width + 3 + 3 padding
+in both side or margin 10px+10px in both size
+now the element size is  = 126
+
+
+if i don't want that our element take much width
+then our actuall size 
+
+then i give box-sizing: border-box;
+
+now what it will do
+
+let say again we have element with 100px width:
+or again 3px 3px padding in both side or margin
+now this property will manage these extra pixels
+in its element size
+
+now the paddng 3+3px = 6px
+or the marging 10+10px =20px
+
+these margin padding take space in the 100 px width 
+and you will the width is still 100px;
+
+but actuall extra 26px is adjusted in 84px + 26px =100px;
+
+
+
+now lets implement this property in universal
+select because i want that our element 
+don't take extra width then our 
+window width.
 
 
 
