@@ -1,0 +1,73 @@
+welcome guys 
+we have already compleated our nav now
+today we are going to create our css3
+carousal
+
+lets create a carousal.
+first lets see on paint that how carousal
+real works in our web page
+
+first we will create a div with id 
+carousal and inside we will create 
+a slider.
+
+a slider is the part that move right to
+left and we will add our animation on this
+slider.
+
+and inside the slider we have images let
+suppose five image.
+
+and our div with carousal id width is 
+100 %;
+
+you can see all these image comes from
+out side of window. from right side.
+it mean one image will be show on window and 
+reamining four image will be out side of
+window.
+
+so you can see this front image is taking 100% 
+of width. it mean every image in the 
+slider will take 100% width.
+
+now if we have 5 images
+it mean we need 5*100width = 500% width
+
+so already have carousla having 100% width
+inside we have slide and we will give 
+500% width according to contain 5 images
+with 100% width,
+inside we will create div with image id
+and inside this image div we create a
+img tag and inside its source attribute 
+we will give the path of image
+
+
+
+
+
+
+with help of css properties and with
+key frames.
+
+css3 come with key frame by which you
+can give animation to our css element
+
+keyframe-based animations thata allow
+you to specify the changes in css 
+properties over time as a set of keyframes
+
+first you need define
+
+
+
+
+
+<timing-function> = ease | linear | ease-in
+| ease-out | ease-in-out | step-start |
+step-end | steps(<integer>[, [ start | 
+end ] ]?) 
+
+
+
