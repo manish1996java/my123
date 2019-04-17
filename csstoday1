@@ -1,7 +1,7 @@
 welcome guys 
 we have already compleated our nav now
 today we are going to create our css3
-carousal
+carousal we also do media query , bootstrap
 
 lets create a carousal.
 first lets see on paint that how carousal
@@ -35,7 +35,7 @@ now if we have 5 images
 it mean we need 5*100width = 500% width
 
 so already have carousla having 100% width
-inside we have slide and we will give 
+inside we have slider and we will give 
 500% width according to contain 5 images
 with 100% width,
 inside we will create div with image id
@@ -45,7 +45,10 @@ we will give the path of image
 
 
 
-
+here we write a css for animation .
+for animation we will use animation 
+property and @keyframe or some css
+properties.
 
 
 with help of css properties and with
@@ -54,7 +57,7 @@ key frames.
 css3 come with key frame by which you
 can give animation to our css element
 
-keyframe-based animations thata allow
+keyframe-based animations that allow
 you to specify the changes in css 
 properties over time as a set of keyframes
 
@@ -75,12 +78,45 @@ Media queries are useful when you
 want to modify your site or app 
 depending on a device's 
 
-you just add @media()
+you just add @media(min-width:1200px)
+@media(max-width:1200px)
 
-In media queries min-width: X is true if the viewport has a width greater or equal to X
+you can add either min-width or
+max width.
+
+in min-width if you give any 
+pixel width it work equal 
+greater to this pixel
+
+and opposite for max-width if 
+you give any pixel width .it work
+equal or smaller 
+to this pixel.
 
 
-In media queries max-width: X is true if the viewport has a width smaller or equal to X
+/* In media queries min-width: X is 
+true if the viewport has a width 
+greater or equal to X */
+
+
+/* In media queries max-width: X is 
+true if the viewport has a width
+smaller or equal to X */
+
+some of common breakpoints is 
+on 1200px width
+992px
+768px
+480px
+320px
+
+
+you also can add breakpoints 
+according to you . on the point
+where your website break. 
+
+
+
 
 so we have completed all important 
 topic of html and css . now you can
@@ -88,3 +124,23 @@ complete this website by own.
 
 so lets move to the next topic is bootstrap
 
+bootstrap is framework on 
+html css js for building beatiful
+and resposive web application.
+it is speacially for mobile first.
+it will give look and feel as 
+mobile view.
+
+
+it has lots of class and component
+you just need to use this class
+according to our choice.
+
+let see how can we use this 
+bootstrap
+
+
+
+
+you can walk through this bootstrap
+website.
