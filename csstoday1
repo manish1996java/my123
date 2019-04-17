@@ -70,4 +70,21 @@ step-end | steps(<integer>[, [ start |
 end ] ]?) 
 
 
+Media query
+Media queries are useful when you 
+want to modify your site or app 
+depending on a device's 
+
+you just add @media()
+
+In media queries min-width: X is true if the viewport has a width greater or equal to X
+
+
+In media queries max-width: X is true if the viewport has a width smaller or equal to X
+
+so we have completed all important 
+topic of html and css . now you can
+complete this website by own.
+
+so lets move to the next topic is bootstrap
 
