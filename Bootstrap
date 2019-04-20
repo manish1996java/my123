@@ -1,1 +1,110 @@
+hey guys!
+
+lets start this session.
+we have completed our html and css.
+today we will integrate a bootstrap.
+now.
+
+bootstrap is open-source framework 
+on html ,css, java script and created
+by twitter and its enable you to 
+create resposive or mobile first,
+website. mobile first because it
+will give you websit to look great
+in mobile view.
+
+Bootstrap has standard set of classes
+that allow you to creat quick and 
+beautiful web application
+
+lets start with container
+
+this is basic component
+bootstrap create a class container
+if you put this class then you will 
+will see it will take some margin 
+from left and right.
+
+now here we don't need to use
+margin: 0 auto;
+
+behind the sean bootstrap is doing 
+the same thing.
+
+now we don't need to create a class
+for this margin: 0 auto;
+
+if you don't want margin from
+left and right. 
+then you just need to add
+
+container-fluid.
+
+then it will take full width of window.
+
+
+now in bootstrap we have grid system.
+in css3 we have displayflex.
+
+and we are using this display flex in 
+.row class{
+  display: flex;
+}
+
+now in bootstrap already has a row class.
+you just need to add this class to
+our element.
+
+and here we add our content or you can 
+say column.
+
+and column must be the intermadiate child 
+of row then it will work.
+
+and one more thing here you may contain 
+12 column in per row.
+
+but sum of column width must be equal to 
+12 
+
+if it is greater then >12 then the column 
+will sift to next line 
+
+there are multiple width of column 
+1 to 12;
+
+and every colmn with different number 
+having different width.
+
+col-1 having 8.3% with out of 100%;
+in col-2 having 2 times greater as same
+col-3 haveing 3 times greter and so on.
+
+last we have col-12 which will take full
+width of screen.
+
+now if we to make it resposive.
+in css we were using media query . now 
+here we have class.
+like 
+
+col-default auto
+col-sm for mobile view    break point =>540px 
+col-md for table view     break point =>720px
+col-lg for desktop view   break point =>960px
+col-xl for large view     break point =>1140
+
+internally they are using @media(min-width:)
+
+
+
+
+
+
+
+
+
+
+
+
 
