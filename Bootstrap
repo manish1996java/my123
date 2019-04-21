@@ -10,12 +10,35 @@ on html ,css, java script and created
 by twitter and its enable you to 
 create resposive or mobile first,
 website. mobile first because it
-will give you websit to look great
-in mobile view.
+will give mobile like look and feel
+to your website.
 
 Bootstrap has standard set of classes
 that allow you to creat quick and 
 beautiful web application
+
+we have two ways to integrate bootstrap
+to our html page.
+
+1. first way to download bootstrap.
+and then you will get a folder .
+and here you need a css file.
+where readymate class of bootstrap 
+define here.
+
+and there is also a java script file
+which will give dynamic behaviour to 
+your website.
+
+then you just need add in our project
+link this css and js.
+
+2. and another why to copy a cdn link 
+directly from bootstap website and 
+paste it into your html page.
+ok,
+
+so.
 
 lets start with container
 
@@ -46,8 +69,8 @@ then it will take full width of window.
 now in bootstrap we have grid system.
 in css3 we have displayflex.
 
-and we are using this display flex in 
-.row class{
+and we were using this display flex in 
+.row{
   display: flex;
 }
 
